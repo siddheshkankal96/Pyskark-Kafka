@@ -1,0 +1,66 @@
+{
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "patient_id": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "sex": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "age": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "country": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "province": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "city": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "infection_case": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "infected_by": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+	"contact_number": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+	"symptom_onset_date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+	"confirmed_date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+	"released_date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+	"deceased_date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+	"state": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    }
+  },
+  "title": "SampleRecord",
+  "type": "object"
+}

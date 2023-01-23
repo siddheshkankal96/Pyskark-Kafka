@@ -1,0 +1,30 @@
+{
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "time": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "sex": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "confirmed": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "deceased": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    }
+  },
+  "title": "SampleRecord",
+  "type": "object"
+}
